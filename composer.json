@@ -1,0 +1,26 @@
+{
+    "name": "illusion/dependency-injection",
+    "type": "project",
+    "description": "Implement the dependency injection",
+    "keywords": [
+        "php", "illusion-dependency-injection", "illusion"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Illusion\\DependencyInjection\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "scripts": {},
+    "extra": {},
+    "config": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
